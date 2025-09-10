@@ -24,6 +24,3 @@ O sistema permite:
 - Node.js
 - TypeScript
 - readline-sync (para interação via console)
-
-## Estrutura do Projeto
-
