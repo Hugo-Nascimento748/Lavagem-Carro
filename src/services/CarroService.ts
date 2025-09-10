@@ -11,12 +11,4 @@ export class CarroService {
         console.log(`Carro ${carro.modelo} adicionado com sucesso!`);
     }
 
-    removerCarro(id: number){
-        this.carros = this.carros.filter(c => c.id !== id);
-    }
-
-    listarCarros(): Carro[]{
-        return this.carros;
-    }
-    
 }

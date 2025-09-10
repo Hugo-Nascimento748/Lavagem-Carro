@@ -50,7 +50,7 @@ export class UsuarioService {
 
     // Lista todos os carros do sistema
     listarCarros(): Carro[] {
-        return this.usuarios.flatMap(u => u.carros);
+        return this.usuarios.reduce((acc: Carro[], u: Usuario) => acc.concat(u.carros), []);
     }
 
     // Edita informações de um usuário
