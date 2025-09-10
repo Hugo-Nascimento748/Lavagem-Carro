@@ -1,0 +1,26 @@
+{
+  "name": "lavagem-carro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugo-Nascimento748/Lavagem-Carro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugo-Nascimento748/Lavagem-Carro/issues"
+  },
+  "homepage": "https://github.com/Hugo-Nascimento748/Lavagem-Carro#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@types/readline-sync": "^1.4.8"
+  }
+}
